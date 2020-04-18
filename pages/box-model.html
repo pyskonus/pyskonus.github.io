@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="../assets/stylesheets/secondary.css">
+</head>
+<body>
+    <section class="contents">
+        <ul>
+            <li><a href="#Display">Display</a></li>
+            <li><a href="#Margin">Margin</a></li>
+            <li><a href="#Border">Border</a></li>
+            <li><a href="#Padding">Padding</a></li>
+            <li><a href="#Developer">Інструменти розробника</a></li>
+        </ul>
+    </section>
+    <section class="text">
+        <h2 id="Display">Display</h2>
+        <p>
+            Елементи на сторінці можуть відображатися як блочні,
+            тоді вони зацмають всю ширину сторінки, а можуть як
+            inline &mdash; тоді вони влізають в навколишній контент.
+            Наприклад, якщо хочете зробити зображення в тексті,
+            воно мусить бути inline.
+            Є також inline-block категорія.
+            Такі елементи мають всі характеристики блочних,
+            але за замовчуванням не починаються з нового рядка.
+        </p>
+        <h2 id="Margin">Margin</h2>
+        <p>
+            Як вже було сказано, кожен елемент на сторінці
+            відображається як прямокутник, або box.
+            Навколо цього прямокутника є три шари&colon; padding,
+            border, margin.
+        </p>
+        <p>
+            Margin дозволяє відділити елементи між собою.
+            Якщо, наприклад, два елементи дотикаються, і треба їх розділити,
+            достатньо одному з них вказати margin. Якщо вкзати обом,
+            зіграє роль лише більший з них.
+            Тобто margin <em>не додається</em>.<br>
+            &emsp;Margin, як і дві наступні характеристики елемента,
+            можна вказувати для всіх сторін одночасно, можна &mdash;
+            для вертикальних і горизонтальних окремо, а можна
+            окремо для всіх.
+        </p>
+        <h2 id="Border">Border</h2>
+        <p>
+            Це просто межа, яка оточує елемент. Може бути
+            якого завгодно кольору, товщини і профілю &mdash;
+            solid, dashed, dotted, double.
+        </p>
+        <h2 id="Padding">Padding</h2>
+        <p>
+            Padding віддаляє вміст елемента від його країв.
+        </p>
+        <h2 id="Developer">Інструменти розробника</h2>
+        <img id="tools" src="../assets/images/tools.jpg" alt="developer tools">
+        <p>
+            Бразузери мають інструменти розробника &mdash; вікно, яке можна
+            відкрити на сторінці і розглянути її в деталях.
+            Одною з корисних особливостей цих інструментів є
+            можливість переглядати описані тут параметри
+            для кожного елемента.
+            Це суттєво полегшує створення сайтів.
+        </p>
+        <p id="backtomain"><a href="../index.html">&#x21b6; На початок</a></p>
+    </section>
+</body>
+</html>

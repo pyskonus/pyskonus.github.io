@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Форми</title>
+    <link rel="stylesheet" href="../assets/stylesheets/secondary.css">
+</head>
+<body>
+    <section class="contents">
+        <ul>
+            <li><a href="#Init">Ініціалізація форми</a></li>
+            <li><a href="#Textfield">Текстові поля</a></li>
+            <li><a href="#Button">Кнопки</a></li>
+            <li><a href="#Checkbox">Checkbox</a></li>
+            <li><a href="#Drop">Випадайки</a></li>
+            <li><a href="#Hidinp">Hidden input</a></li>
+            <li><a href="#Files">Вставка файлів</a></li>
+        </ul>
+    </section>
+
+    <section class="text">
+        <h2 id="Init">Ініціалізація форми</h2>
+        <p>
+            Щоб зробити форму, її треба оголосити тегом &lt;form&gt;.
+            Цей тег подвійний.
+            Атрибуту method слід присвоїти 'post', для форми, яку ми розглядатимемо наступною,
+            також треба action присвоїти 'login'.
+        </p>
+        <h2 id="Textfield">Текстові поля</h2>
+        <p>
+            Тестове поле, як і будь-яке інше поле вводу, оолошується
+            тегом &lt;input&gt;.
+            Цей тег вже одинарний.
+            Отож, для текстового вводу type має бути 'text'.
+            Також можна назвати поле вводу,
+            назву внеести в атрибут 'name'.
+            Деякі види поля вводу в HTML5&colon;
+            <ol style="list-style-type: lower-roman; margin-left: 5em;">
+                <li>color</li>
+                <li>email</li>
+                <li>range</li>
+                <li>time</li>
+                <li>date</li>
+                <li>month</li>
+                <li>search</li>
+                <li>url</li>
+                <li>datetime</li>
+                <li>number</li>
+                <li>tel</li>
+                <li>week</li>
+            </ol>
+        </p>
+        <p>
+            Поле вводу тексту також можна викликати тегом &lt;textarea&gt;.
+            Воно дозволяє вводити повноцінний текст.
+            Взагалі, тег input за означенням викликає компактні поля взаємодії.
+            Текст цим тегом можна приймати тільки без newline.
+        </p>
+        <h2 id="Button">Кнопки</h2>
+        <p>
+            Кнопки, про які тут йтиметься &mdash; це так звані radio buttons.
+            Тобто вибрати можна тільки одну з них.
+            Для цього тип input має бути radio.
+            Також можна вибрати одну з кнопок заздалегідь, наприклад, ту, яку
+            користувачі найчастіше обирають.
+            Для цього достатньо в тег відкривання просто вставити атрибут checked.
+        </p>
+        <h2 id="Checkbox">Checkbox</h2>
+        <p>
+            Тип input &mdash; checkbox.
+            Від radio button відрізняється тим, що можна вибирати кілька елементів.
+        </p>
+        <h2 id="Drop">Випадайки</h2>
+        <p>
+            Відкривається тегом select.
+            Кожен пункт описується тегом option.
+            Ось так:
+        </p>
+        <img src="../assets/images/drop.jpg" style="margin-left:40px;">
+
+        <h2 id="Hidinp">Hidden input</h2>
+        <p>
+            Тут тип вводу має бути 'hidden'.
+            Використовується для передачі паролів і взвглі будь-чого, чого інші користувачі не мають бачити.
+        </p>
+        <h2 id="Files">Вставка файлів</h2>
+        <p>
+            Тип вводу &mdash; 'file'.
+            Цей тип вводу важко стилізується CSS.
+        </p>
+        <p id="backtomain"><a href="../index.html">&#x21b6; На початок</a></p>
+    </section>
+</body>
+</html>

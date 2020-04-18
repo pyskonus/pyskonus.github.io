@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Текст</title>
+    <link rel="stylesheet" href="../assets/stylesheets/secondary.css">
+</head>
+<body>
+    <section class="contents">
+        <ul>
+            <li><a href="#Style">Стиль шрифту</a></li>
+            <li><a href="#Variant">Variant</a></li>
+            <li><a href="#Weight">Товщина шрифту</a></li>
+            <li><a href="#LineHeight">Висота стрічки</a></li>
+            <li><a href="#Hover">Взаємодія з курсором</a></li>
+            <li><a href="#Shadow">Тінь тексту</a></li>
+            <li><a href="#Spacing">Відстані</a></li>
+            <li><a href="#Align">Рівняння</a></li>
+            <li><a href="#Decoration">Декорації</a></li>
+        </ul>
+    </section>
+
+    <section class="text">
+        <h2 id="Style">Стиль шрифту</h2>
+        <h3 style="font-style: normal;">normal</h3>
+        <p>
+            Як видно з назви, звичайний текст, жодних змін.
+        </p>
+        <h3 style="font-style: italic;">italic</h3>
+        <p>
+            Курсив.
+        </p>
+        <h3 style="font-style: oblique;">oblique</h3>
+        <p>
+            Виглядає як italic, але це не курсив, а просто нахилений текст.
+        </p>
+        <h3>inherit</h3>
+        <p>
+            Встановлює стиль батьківського елемента.
+        </p>
+
+        <h2 id="Variant">Variant</h2>
+        <p>
+            Приймає в основному normal, small-caps i inherit. Small-caps виглядає так&colon;
+        </p>
+        <p style="font-variant: small-caps;">Цей текст має властивість small-caps</p>
+        
+        <h2 id="Weight">Товщина шрифту</h2>
+        <p style="font-weight: 100">
+            Тут товщина мінімальна.
+        </p>
+        <p style="font-weight: lighter">
+            Тут lighter.
+        </p>
+        <p style="font-weight: bolder;">
+            Тут bolder.
+        </p>
+        <p style="font-weight: 900;">
+            Тут максимальна.
+        </p>
+        <p>
+            font&ndash;weigth може приймати як словесні занчення, так і числа від 100 до 900.
+        </p>
+
+        <h2 id="LineHeight">Висота стрічки</h2>
+        <p>
+            line&ndash;height приймає значення довжини, про які ми говорили раніше.
+        </p>
+        
+        <h2 id="Hover">Взаємодія з курсором</h2>
+        <p>
+            Текст може змінювати стиль, коли на нього навести курсор, як, наприклад,
+            пункти списку зліва змінюють колір.
+            Це досягаяється використанням псевдо&ndash;класів.
+            Справа в тому, що текст, коли на ньому є курсор і текст, коли на ньому нема
+            курсора &mdash; це ніби різні об'єкти.
+            Щоб вибрати саме текст, коли на ньому є курсор, в скрипті CSS,
+            треба додати до селектора '&colon;hover'. Отримаємо псевдо&ndash;клас.
+        </p>
+        <h2 id="Shadow" style="text-shadow: 2px 4px 5px blue;">Тінь тексту</h2>
+        <p>
+            text-shadow приймає три аргументи: горизонтальне і вертикальне зміщення,
+            розмір тіні і колір.
+        </p>
+        
+        <h2 id="Spacing">Відстані</h2>
+        <p>
+            letter-spacing приймає довжину, яку програміст хоче додати до поточної відстані між буквами.
+            Може бути від'ємною.
+            word-spacing &mdash; так само, тільки для слів.
+        </p>
+        <h2 id="Align">Рівняння</h2>
+        <p>
+            Текст можна вирівняти під лівий край, по центру, і під правий край.
+            Це досягається властивістю text-align&colon; left&sol;center&sol;right.
+        </p>
+        <h2 id="Decoration">Декорації</h2>
+        <p>
+            text-decoration&colon;
+        </p>
+        <p style="text-decoration: none; margin: 0.3em 2em">
+            none
+        </p>
+        <p style="text-decoration: underline; margin: 0.3em 2em">
+            underline
+        </p>
+        <p style="text-decoration: overline; margin: 0.3em 2em">
+            overline
+        </p>
+        <p style="text-decoration: line-through; margin: 0.3em 2em">
+            line&ndash;through
+        </p>
+        <p style="text-decoration: inherit; margin: 0.3em 2em">
+            inherit
+        </p>
+        <p id="backtomain"><a href="../index.html">&#x21b6; На початок</a></p>
+    </section>
+</body>
+</html>

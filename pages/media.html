@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Медіа</title>
+    <link rel="stylesheet" href="../assets/stylesheets/secondary.css">
+</head>
+<body>
+    <section class="contents">
+        <ul>
+            <li><a href="#Images">Зображення</a>
+            <ul>
+                <li><a href="#Src">alt</a></li>
+                <li><a href="#Alt">src</a></li>
+                <li><a href="#Sizing">scaling</a></li>
+            </ul></li>
+            <li><a href="#Audio">Аудіо</a></li>
+            <li><a href="#Video">Відео</a></li>
+            <li><a href="#Iframe">Inline frame</a></li>
+        </ul>
+    </section>
+
+    <section class="text">
+        <h2 id="Images">Зображення</h2>
+        <h3 id="Src">src</h3>
+        <p>
+            Атрибут src приймає url() з шляхом до зображення,
+            відносного на цьому ж сервері чи десь в Інтернеті.
+        </p>
+        <h3 id="Alt">alt</h3>
+        <p>
+            Важливий атрибут, який заміняє зображення, якщо його не вдалося завантажити,
+            і читається при читанні сайту вголос браузером, наприклад, для сліпих.
+        </p>
+        <h3 id="Sizing">scaling</h3>
+        <p>
+            Якщо змінити тільки один розмір зображення, воно, природно, масштабується пропорційно,
+            якщо обидва &mdash; пропорції зміняться.
+            Властивості height і width зображення приймають довжини, але height
+            не приймає відсотків, б відсотки міряються від ширини сторінки, а не від висоти.
+        </p>
+        <h2 id="Audio">Аудіо</h2>
+        <p>
+            Додається тегом &lt;audio&gt;.
+            Назву файлу слід присвоїти атрибуту src.
+            Є ще два важливі атрибути&colon;<br>
+            autoplay &mdash; відтворювати аудіо одразу після завантаження сторінки чи ні і<br>
+            controls &mdash; відображати кнопки play&sol;pause і подібні чи ні.
+
+        </p>
+        <h2 id="Video">Відео</h2>
+        <p>
+            Так само, як з аудіо, тільки вимагає більше місця на сторінці для власне відео.
+            Можна додавати тег &lt;a&gt; з атрибутом download, щоб можна було скачувати відео.
+        </p>
+        <h2 id="Iframe">Inline frame</h2>
+        <p>
+            Просто вставляє медіа з інших сайтів, може навіть вставляти карти.
+            Часто для цього і використовується.
+        </p>
+        <p id="backtomain"><a href="../index.html">&#x21b6; На початок</a></p>
+    </section>
+    
+</body>
+</html>

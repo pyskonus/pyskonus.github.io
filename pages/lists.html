@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Списки</title>
+    <link rel="stylesheet" href="../assets/stylesheets/secondary.css">
+</head>
+<body>
+    <section class="contents">
+        <ul>
+            <li><a href="#Unord">Невпорядковані</a></li>
+            <li><a href="#Ord">Впорядковані</a></li>
+            <li><a href="#LST">Іконки</a></li>
+            <li><a href="#ImgMarker">Зображення замість іконок</a></li>
+            <li><a href="#Start">Початковий пункт</a></li>
+        </ul>
+    </section>
+    <section class="text">
+        <h2 id="">Невпорядковані</h2>
+        <p>
+            Робиться це так&colon;<br>
+            &lt;ul&gt;<br>
+            &emsp;&lt;li&gt;пункт 1&lt;&sol;li&gt;<br>
+            &emsp;&lt;li&gt;пункт 2&lt;&sol;li&gt;<br>
+            &lt;ul&gt;<br>
+            Виглядатиме так&colon;
+            <ul style="list-style-type: disc;">
+                 <li style="margin-bottom: 0;">пункт 1</li>
+                 <li style="margin-top: 0;">пункт 2</li>
+             <ul>
+        </p>
+        <h2 id="">Впорядковані</h2>
+        <p>
+            Є також впорядковані списки, в них замість ul тег ol.
+        </p>
+        <h2 id="">Іконки</h2>
+        <p>
+            list&ndash;style&ndash;type приймає різні варіанти іконок списку. Нижче в таблиці наведені деякі з них.
+            <table>
+                <tr>
+                    <td>none</td>
+                    <td>порожньо</td>
+                </tr>
+                <tr>
+                    <td>disc</td>
+                    <td>заповнене коло</td>
+                </tr>
+                <tr>
+                    <td>circle</td>
+                    <td>незаповнене коло</td>
+                </tr>
+                <tr>
+                    <td>square</td>
+                    <td>квадрат</td>
+                </tr>
+                <tr>
+                    <td>decimal</td>
+                    <td>числа</td>
+                </tr>
+                <tr>
+                    <td>upper-roman</td>
+                    <td>римська нумерація</td>
+                </tr>
+                <tr>
+                    <td>armenian</td>
+                    <td>вірменська нумерація</td>
+                </tr>
+            </table>
+        </p>
+        <h2 id="">Зображення замість іконок</h2>
+        <p>
+            Замість іконок можна використовувати навіть зображення.
+            Для цього просто треба вставити відповідне зображення як background
+            типу li.
+        </p>
+        <h2 id="">Початковий пункт</h2>
+        <p>
+            Можна також встановити, з якого номера має починатися нумерація в списку.
+            Для цього в ol треба присвоїти відповідне значення атрибуту start.
+        </p>
+        <p id="backtomain"><a href="../index.html">&#x21b6; На початок</a></p>
+    </section>
+</body>
+</html>
